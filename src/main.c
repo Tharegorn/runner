@@ -19,8 +19,8 @@ void help(void)
     my_putstr("Finite runner created with CSFML.\n\n");
     my_putstr("USAGE\n ./my_runner map.txt\n\n\n");
     my_putstr("OPTIONS\n -h            print the usage and quit.\n\n");
-    my_putstr("USER INTERACTIONS\n KEY_UP        teleport to the top.\n");
-    my_putstr(" KEY_DOWN      teleporte to the down.\n");
+    my_putstr("USER INTERACTIONS\n KEY_UP        move up.\n");
+    my_putstr(" KEY_DOWN      move down.\n");
     my_putstr(" ESCAPE        close the game.\n");
 }
 
